@@ -1,0 +1,3 @@
+let nameslar, {
+	name: , "muhammad": ,
+};
