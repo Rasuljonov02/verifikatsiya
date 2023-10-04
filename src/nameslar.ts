@@ -1,3 +1,0 @@
-let nameslar, {
-	name: , "muhammad": ,
-};
