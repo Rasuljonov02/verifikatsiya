@@ -1,17 +1,8 @@
-# ---------- 02.10.23 ----------(61)
-
-## Projects
-
-    ✅ Quiz app 👍🏻
-    ✅ Pomodoro focus 👍🏻
-    ✅ Pig game
-    ✅ Tic Tac Toe 👍🏻
-    ✅ Memory game v1 👍🏻
-    ✅ Speed memory game
+# ---------- 04.10.23 ----------(62)
 
 # JS Advanced
 
-    ✅ Expression vs Statement
+    ✅ Expression vs Statement 👍🏻
     ✅ OOP && Object.create && Object.assign
     ✅ Prototype && Prototype Chain
     ✅ Functional Programming && Closure
