@@ -15,8 +15,8 @@ const schema = yup.object().shape({
 	til: yup
 		.string()
 		.required("Hato")
-		.matches(/[a-zA-Z]g/),
-	malumot: yup.string().required("Hato"),
+		.matches(/[a-zA-Z]/),
+	// malumot: yup.string().required("Hato"),
 	urll: yup.string().url("Invalid website URL").required("Hato"),
 	davlat: yup.string().required("Hato"),
 	ittil: yup.string().required("Hato"),
@@ -27,7 +27,7 @@ form.addEventListener("submit", (e) => {
 
 	const formData = {
 		til: til.value,
-		malumot: malumot.value,
+		// malumot: malumot.value,
 		urll: urll.value,
 		davlat: davlat.value,
 		ittil: ittil.value,
@@ -41,7 +41,9 @@ form.addEventListener("submit", (e) => {
 		.catch((error) => {
 			console.log(error);
 		});
-// console.log(formData);
+
+
+
 
 	const til1: HTMLParagraphElement = document.querySelector(".til1")!;
 	const davlat1: HTMLParagraphElement = document.querySelector(".url")!;

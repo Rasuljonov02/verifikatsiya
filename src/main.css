@@ -66,6 +66,7 @@ select:hover {
 	border: 2px solid red;
 	box-shadow: 1px 1px 21px rgba(255, 0, 0, 1);
 }
+
 .zor {
 	border: 2px solid rgb(136, 255, 0);
 	box-shadow: 1px 1px 21px rgb(255, 251, 0);
@@ -94,5 +95,5 @@ p {
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
-	
+
 }
